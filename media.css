@@ -1,0 +1,446 @@
+/* Media queries styles */
+
+@media (max-width: 1024px) {
+    /* Header styles */
+    header {
+        padding: 0.5rem 1.5rem;
+    }
+
+    header .logo-container .logo-text {
+        font-size: 2rem;
+    }
+
+    header .list-container {
+        gap: 5rem;
+        font-size: 1rem;
+    }
+
+
+
+    /* Main, Home section container styles */
+
+    #home-container .border-1 {
+        gap: 2rem;
+    }
+
+    .catch-container {
+        font-size: 1rem;
+        gap: 2rem;
+    }
+
+    .catch-container .name-header {
+        font-size: 2.9rem;
+    }
+
+    #home-container .catch-container .button-container .project-button {    
+        font-size: 0.7rem;
+        padding: 0.8rem 1.5rem;
+    }
+
+    #home-container .socials-container ul {
+        gap: 2rem;
+    }
+
+    #home-container .socials-container .social-media-icon {
+        width: 45px;
+        height: 45px;
+    }
+
+    #home-container .profile-container .img-profile {   
+        border-radius: 30px;
+        width: 250px;
+        height: 250px;
+    }
+
+
+
+    /* Main, About section container styles */
+
+    main #about-container {
+        gap: 1rem;
+        padding: 2.5rem;
+    }
+
+    main #about-container .language-container {
+        flex: 1;
+        gap: 2rem;
+    }
+
+    .front-end,
+    .back-end {
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .front-end h1,
+    .back-end h1 {
+        font-size: 1.3rem;
+    }
+
+    .language {
+        padding: 1rem;
+        font-size: 0.8rem;
+    }
+
+    #about-container .about-me-container {
+        padding: 1rem;
+    }
+
+
+    /*Main, Projects section styles*/
+
+    main #projects-container {
+        height: auto;
+        padding: 3rem;
+        gap: 3rem;
+    }
+
+.section-title {
+    font-size: 2rem;
+}
+
+.section-sub {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+main #projects-container .portfolio-grid {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+.project {
+    background-color: var(--text);
+    color: var(--background);
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    flex: 1;
+    flex-basis: 250px;
+}
+
+.project-thumb img {
+    width: 100%;
+    border-radius: 5px;
+}
+}
+
+
+
+@media (max-width: 768px) {
+    /* Header styles */
+    header {
+        padding: 0.5rem 1.5rem;
+    }
+
+    header .logo-container .logo-text {
+        font-size: 2rem;
+    }
+
+    header .list-container {
+        gap: 3rem;
+        font-size: 1rem;
+    }
+
+
+
+    /* Main, Home section container styles */
+
+    #home-container .border-1 {
+        gap: 2rem;
+    }
+
+    .catch-container {
+        font-size: 0.9rem;
+        gap: 2rem;
+    }
+
+    .catch-container .name-header {
+        font-size: 2.4rem;
+    }
+
+    #home-container .catch-container .button-container .project-button {    
+        font-size: 0.7rem;
+        padding: 0.8rem 1.5rem;
+    }
+
+    #home-container .socials-container ul {
+        gap: 1.8rem;
+    }
+
+    #home-container .socials-container .social-media-icon {
+        width: 35px;
+        height: 35px;
+    }
+
+    #home-container .profile-container .img-profile {   
+        border-radius: 30px;
+        width: 210px;
+        height: 210px;
+    }
+
+
+
+    /* Main, About section container styles */
+
+    main #about-container {
+        gap: 1rem;
+        padding: 2.5rem;
+        height: auto;
+    }
+
+    main #about-container .language-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex: 1;
+        gap: 1.5rem;
+    }
+
+    .front-end,
+    .back-end {
+        flex: 1;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .front-end h1,
+    .back-end h1 {
+        font-size: 1.3rem;
+    }
+
+    .language {
+        padding: 1rem;
+        font-size: 0.8rem;
+    }
+
+    #about-container .about-me-container {
+        padding: 1rem;
+    }
+}
+
+
+
+@media (max-width: 640px) {
+    /* Header styles */
+    header {
+        padding: 1rem 1.5rem;
+    }
+
+    header .logo-container .logo-text {
+        font-size: 1.5rem;
+    }
+
+    header .list-container {
+        gap: 2rem;
+        font-size: 0.8rem;
+    }
+
+
+
+    /* Main, Home section container styles */
+
+    main #home-container {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+    }
+
+    #home-container .border-1 {
+        gap: 3rem;
+        padding: 1rem;
+    }
+
+    .catch-container {
+        font-size: 1rem;
+        gap: 2rem;
+    }
+
+    .catch-container .name-header {
+        font-size: 3rem;
+    }
+
+    #home-container .catch-container .button-container .project-button {    
+        font-size: 0.7rem;
+        padding: 0.8rem 1.5rem;
+    }
+
+    #home-container .socials-container ul {
+        gap: 2rem;
+    }
+
+    #home-container .socials-container .social-media-icon {
+        width: 35px;
+        height: 35px;
+    }
+
+    #home-container .profile-container {
+        padding: 1rem;
+    }
+
+    #home-container .profile-container .img-profile {   
+        border-radius: 30px;
+        width: 190px;
+        height: 190px;
+    }
+
+
+
+    /*Main, Projects section styles*/
+
+    main #projects-container {
+        height: auto;
+        padding: 2.5rem;
+        gap: 3rem;
+    }
+
+.section-title {
+    font-size: 2rem;
+}
+
+.section-sub {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+main #projects-container .portfolio-grid {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+.project {
+    background-color: var(--text);
+    color: var(--background);
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    flex: 1;
+    flex-basis: 260px;
+}
+
+.project-thumb img {
+    width: 100%;
+    border-radius: 5px;
+}
+}
+
+
+
+@media (max-width: 480px) {
+    /* Header styles */
+    header {
+        padding: 0.8rem 1rem;
+    }
+
+    header .logo-container .logo-text {
+        font-size: 1.3rem;
+    }
+
+    header .list-container {
+        gap: 1.5rem;
+        font-size: 0.7rem;
+    }
+
+
+
+    /* Main, Home section container styles */
+
+    main #home-container {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+    }
+
+    #home-container .border-1 {
+        gap: 2rem;
+        padding: 1rem;
+    }
+
+    .catch-container {
+        font-size: 0.9rem;
+        gap: 2rem;
+    }
+
+    .catch-container .name-header {
+        font-size: 2.4rem;
+    }
+
+    #home-container .catch-container .button-container .project-button {    
+        font-size: 0.5rem;
+        padding: 0.8rem 1.5rem;
+    }
+
+    #home-container .socials-container ul {
+        gap: 1.5rem;
+    }
+
+    #home-container .socials-container .social-media-icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    #home-container .profile-container {
+        padding: 1rem;
+    }
+
+    #home-container .profile-container .img-profile {   
+        border-radius: 30px;
+        width: 190px;
+        height: 190px;
+    }
+
+
+
+    /* Main, About section container styles */
+
+    main #about-container {
+        gap: 1rem;
+        padding: 2rem;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    main #about-container .language-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex: 1;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+    }
+
+    .front-end,
+    .back-end {
+        flex: 1;
+        padding: 1rem;
+        gap: 1rem;
+        flex-basis: 150px;
+    }
+
+    .front-end h1,
+    .back-end h1 {
+        font-size: 1.3rem;
+    }
+
+    .language {
+        padding: 1rem;
+        font-size: 0.8rem;
+    }
+
+    #about-container .about-me-container {
+        padding: 1rem;
+    }
+}
